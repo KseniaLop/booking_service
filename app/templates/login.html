@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Booking Machine</title>
+</head>
+<body class="body">
+    <form action="login-callback" method="post">
+        <script src="{{ url_for('static', filename='script.js') }}"></script>
+        <div id="admin-modal" class="modal-container">
+            <div class="modal">
+                <div class="modal__title">Вход</div>
+                <div class="modal__body">
+                    <div class="modal__place place-info">
+                        <input name="login" class="button" placeholder="Логин">
+                        <input name="password" type="password" class="button" placeholder="Пароль">
+                    </div>
+                </div>
+                <div class="modal__buttons">
+                    <button type="submit" id="login-btn" class="button modal__button">Вход</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
