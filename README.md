@@ -6,6 +6,11 @@
 
 
 
+
+
+
 Для бронирования необходимо перейти на главную страницу. После выбора фильма открывается схема зала. Статус мест (забронировано/свободно) сохраняется благодаря базе даннных. Идет подсчет свободных мест. ![image](https://user-images.githubusercontent.com/95567815/215988899-fe00cb1f-1b48-41d0-9281-2b09d73fbb64.png)
 ![image](https://user-images.githubusercontent.com/95567815/215988953-aa281f1f-5e4d-4ca2-bd47-0847f3822ac3.png)
+![image](https://user-images.githubusercontent.com/95567815/215989205-c300910f-b025-4662-8c34-97847a0e4b85.png)
+
 
